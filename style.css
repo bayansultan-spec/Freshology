@@ -15,37 +15,37 @@ body{
     background-repeat: no-repeat;
     color: rgb(223, 178, 151);
     flex-direction: column;
-
 }
 
-header {
+    header {
   background-color: rgb(54, 77, 54);
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: 10%
+    
 }
-header h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+header h1{
+   margin-right: 10%;
     color:  rgba(198, 57, 11, 0.814);
-    margin-left: 30px;
-    margin-right: 50px;
+   
 }
 nav ul
 {
  display: flex;
  flex-direction: row;
+ align-items: center;
  justify-content: center;
  
 }
  nav ul li{
     text-decoration: none;
     display: flex;
-   
    justify-content: center;
-   align-items: center;
    flex-direction: row;
-   margin-right: 90px;
+   align-items: center;
+   margin-right: 50px
   
 }
  nav ul li a {
@@ -64,12 +64,12 @@ transition:0.5s ;
 }
 
 .container{
-height: 30%;
+flex: 1;
    display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    margin-left: 30px;
+    width: 90%;
+    margin-left: auto;
 }
 
 .wowslider {
@@ -91,28 +91,22 @@ height: 30%;
    margin-left: 30px;
    font-size: x-large;
 }
-footer{
-    margin-top: 10px;
-    margin-bottom: 100px;
-    color:  rgba(198, 57, 11, 0.814);
-    background-size: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-}
-   .h1 {
+  
+
+    h1 {
       text-align: center;
       margin-bottom: 20px;
       color:   rgba(198, 57, 11, 0.814);
-      margin-top: 20px;
     }
     table {
-      width: 60%;
+      width: 90%;
       margin: 20px auto;
       border: #000000;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
       background-color:  rgb(54, 77, 54);;
       border-radius: 10px;
+      margin-left: 30%;
     }
     th, td {
       padding: 14px 18px;
@@ -132,4 +126,60 @@ footer{
       color:  rgba(198, 57, 11, 0.814);
     }
 
+          footer{
+   
+      width: 100%;
+      background-color:rgb(54, 77, 54); 
+      font-size: large;
+    color:  rgba(198, 57, 11, 0.814);
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px 0;
+}
+footer p{
+   height: 35px;
+   margin-bottom: 0;
+   margin-top: 0%;
+   color: rgba(198, 57, 11, 0.814);
+      display: flex;
+      font-size: large;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+html, body { height: 100%; }
+body { min-height: 100vh; margin: 0; display: flex; flex-direction: column; }
+.container { flex: 1; width: 90%; margin: 0 auto; }
+footer { margin-top: auto; padding: 15px 0; background-color: rgb(54,77,54) !important; }
 
+
+@media (max-width:1000px){
+  .container{
+display: none;
+}
+
+.wowslider {
+  display: none;
+}
+.container main{
+  display: none;
+}
+
+.container h1
+{
+    display: none;
+}
+
+.container p
+{
+  display: none;
+}
+}
+
+
+
+
+   

@@ -1,0 +1,246 @@
+
+   *{
+     margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  
+    display: flex;
+    font-family: sans-serif;
+    background-image: 
+    linear-gradient(to bottom , rgba(0, 0, 0, 0.7),rgba(16, 15, 15, 0.784)),
+    url('images/backgroundhome.jpg');
+    background-attachment:fixed ;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(223, 178, 151);
+    flex-direction: column;
+
+}
+ /* header {
+  background-color: rgb(54, 77, 54);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%
+    
+}
+header h1{
+   margin-right: 10%;
+    color:  rgba(198, 57, 11, 0.814);
+   
+}
+nav ul
+{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ 
+}
+ nav ul li{
+    text-decoration: none;
+    display: flex;
+   justify-content: center;
+   flex-direction: row;
+   align-items: center;
+   margin-right: 50px
+  
+}
+ nav ul li a {
+display:flex;
+color: inherit;
+text-decoration: none;
+font-weight: 60;
+font-size:20px ;
+transition:0.5s ;
+
+}
+ nav ul li a:hover{
+    color: rgba(175, 50, 8, 0.814);
+    transform: scale(1.1);
+
+} */
+          footer{
+      width: 100%;
+      background-color:rgb(54, 77, 54); 
+      font-size: large;
+    color:  rgba(198, 57, 11, 0.814);
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+*{
+
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+  body{
+    font-family: sans-serif;
+    background-image: 
+    linear-gradient(to bottom , rgba(0, 0, 0, 0.7),rgba(16, 15, 15, 0.784)),
+    url('../images/backgroundhome.jpg');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    color: rgb(223, 178, 151);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+ 
+
+  } 
+
+  
+    header {
+  background-color: rgb(54, 77, 54);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%
+    
+}
+header h1{
+   margin-right: 10%;
+    color:  rgba(198, 57, 11, 0.814);
+   
+}
+nav ul
+{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ 
+}
+ nav ul li{
+    text-decoration: none;
+    display: flex;
+   justify-content: center;
+   flex-direction: row;
+   align-items: center;
+   margin-right: 50px
+  
+}
+ nav ul li a {
+display:flex;
+color: inherit;
+text-decoration: none;
+font-weight: 60;
+font-size:20px ;
+transition:0.5s ;
+
+}
+ nav ul li a:hover{
+    color: rgba(175, 50, 8, 0.814);
+    transform: scale(1.1);
+
+}
+
+
+.card{
+  
+   width: 30%;
+   max-width: 35%;
+   border-radius: 10%;
+   display: flex;
+   flex-direction: column;
+   transition: 0.5s;
+   justify-content: center;
+   align-items: center;
+   margin: 1%;
+   overflow: hidden; 
+}
+
+.image_container {
+   width: 100%;
+   height: 300px; 
+   background-size: cover;
+   background-position: center;
+  
+}
+
+.card-1 .image_container {
+    background-image: url('../images/111.jpg');
+}
+.card-2 .image_container {
+    background-image: url('../images/999.jpg');
+}
+.card-3 .image_container {
+    background-image: url('../images/333.jpg');
+}
+.card-4 .image_container {
+    background-image: url('../images/444.jpg');
+}
+.card-5 .image_container {
+    background-image: url('../images/555.jpg');
+}
+.card-6 .image_container {
+    background-image: url('../images/666.jpg');
+}
+.card-7 .image_container {
+    background-image: url('../images/777.jpg');
+}
+.card-8 .image_container {
+    background-image: url('../images/888.jpg');
+}
+.card-9 .image_container {
+    background-image: url('../images/000.jpg');
+}
+.content-card {
+   padding: 15px;
+   width: 100%;
+   text-align: center;
+   color: rgb(223, 178, 151);
+   background-color:rgb(54, 77, 54); ;
+}
+        button{
+         width: 20%;
+         padding: 3%;
+         border-radius: 10px;
+         background-color:  rgba(198, 57, 11, 0.814);;
+         color:wheat;
+         border: none;
+         cursor: pointer;
+         margin-top: 20px;
+         font-size: 15px;
+         transition:0.5s ;
+        }
+  
+      button:hover{
+         background-color: wheat;
+         color: rgba(198, 57, 11, 0.814);
+         transform: scale(1.1);
+      }
+          footer{
+   
+      width: 100%;
+      background-color:rgb(54, 77, 54); 
+      font-size: large;
+    color:  rgba(198, 57, 11, 0.814);
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+footer p{
+   height: 35px;
+   margin-bottom: 5px;
+   margin-top: 0%;
+   color: rgba(198, 57, 11, 0.814);
+      display: flex;
+      font-size: large;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
